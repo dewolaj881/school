@@ -16,11 +16,6 @@ body {
     text-align: center;
 }
 
-/* .table {
-    border: 1px solid red;
-    width: 800px
-} */
-
 #heading2 {
     text-align: center;
     font-size: 15px;
@@ -56,10 +51,17 @@ body {
     text-decoration: none;
     list-style-type: none;
     line-height: 30px;
+    padding-right: 40px;
 }
 
-#spis > li {
+/* #spis > li {
     border-bottom: 1px solid grey;
+} */
+
+
+#spis > li:hover {
+    border-bottom: 1px solid grey;
+    transform: scale(1.1);
 }
 
 #spis > li > a {
