@@ -3,153 +3,43 @@
 <head>
     <meta charset="UTF-8"/>
     <title>StarWatch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/fontawesome-free-5.14.0-web/css/fontawesome.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
-    <h1 id="heading">Welcome to StarWatch</h1>
-    <h2 id="heading2">Chosen HTML5 Tags</h2>
-    <ol style="list-style-type: none; line-height: 30px" id="spis">Spis treści
-        <li><a   href="#images-list">Unordered List</a></li>
-        <li><a href="#ordered">Ordered List</a></li>
-        <li>Definition</li>
-        <li><a href="#navi">Navigation</a></li>
-        <li><a href="#tables">Table</a></li>
-        <li><a href="#task">Task</a></li>
-    </ol>
-    <p class="paragraph">Unordered List</p>
-    <ul class="unordered">
-        <li><a href="https://www.facebook.com/">lista</a></li>
-        <li>lista</li>
-        <li>lista</li>
-        <li>lista</li>
-        <li>lista</li>
-    </ul>
-    <p id="ordered" class="paragraph">Ordered List</p>
-    <ol class="ordered" type="I">
-        <li>lista</li>
-        <li>lista</li>
-        <li>lista</li>
-        <li>lista</li>
-        <li>lista</li>
-    </ol>
-    <p class="paragraph">Definition</p>
-    <dl>
-        <dt><strong>Tytuł definicji</strong></dt>
-        <dd>Opis Opis Opis Opis Opis</dd>
-    </dl>
-    <p id="navi" class="paragraph">Nawigacja</p>
-    <ul>
-        <li>O firmie</li>
-        <li>Produkty
-            <ul>
-                <li>Procesory</li>
-                <li>Dyski twarde
-                <ol>
-                    <li>HDD</li>
-                    <li>SSD</li>
-                </ol>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">StarWatch</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="RAM">Pamięci RAM
-                    <ol>
-                        <li>DDR4 4GB</li>
-                        <li>DDR4 8GB</li>
-                        <li>DDR4 16GB</li>
-                    </ol>
+                <li class="nav-item">
+                    <a class="nav-link" href="exercises.html">Examples</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="lists.html">Lists</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="definition.html">Definition</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="picmap.html">Picture Map</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="tables.html">Tables</a>
+                    </div>
                 </li>
             </ul>
-        </li>
-    </ul>
-    <p id="task" class="paragraph">Mapa obrazu</p>
-    <center>
-        <img src="https://i.stack.imgur.com/UYYqo.jpg" usemap="#mapa1" alt="fruits.img"/>
-        <map name="mapa1">
-            <area shape="circle" coords="49,44,34" href="#peach">
-            <area shape="circle" coords="145,54,45" href="#apple">
-            <area shape="rect" coords="37,110,145,180" href="#banana"/>
-        </map>
-    </center>
-    <p id="tables" class="paragraph">Tables</p>
-    <table width="800" align="center" border="1">
-        <caption>Opis tabeli</caption>
-        <thead style="font-weight: 300;">
-            <tr>
-                <th>Test</th>
-                <th>Tabeli</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td width="25%" align="center">1</td>
-                <td width="75%" align="center">2</td>
-            </tr>
-            <tr>
-                <td align="center">3</td>
-                <td align="center">4</td>
-            </tr>
-        </tbody>
-    </table>
-    <p id="task" class="paragraph">Zadanie</p>
-    <img src="https://owlconnected.com/wp-content/uploads/2019/12/dreamstime_s_110897836-e1575651362508.jpg" usemap="#planetary" alt="planetary system"/>
-    <map name="planetary">
-        <area shape="rect" coords="1,394,50,1" href="#slonce">
-        <area shape="circle" coords="70,195,20" href="#merkury">
-        <area shape="circle" coords="119,195,25" href="#wenus">
-        <area shape="circle" coords="175,195,25" href="#ziemia">
-        <area shape="circle" coords="220,195,15" href="#mars">
-        <area shape="circle" coords="315,198,70" href="#jowisz">
-        <area shape="circle" coords="455,198,60" href="#saturn">
-        <area shape="circle" coords="560,198,38" href="#uran">
-        <area shape="circle" coords="650,198,38" href="#pluton">
-    </map>
-    <p id="task" class="paragraph">Zadanie</p>
-    <img src="https://thumbs.img-sprzedajemy.pl/1000x901c/9b/30/4b/zestaw-komputerowy-dell-optiplex-755-monitor-19-elektronika-ostrow-wielkopolski-524576118.jpg" usemap="#comp" alt="computer system"/>
-    <map name="comp">
-        <area shape="rect" coords="50,30,335,529" href="#komputer">
-        <area shape="rect" coords="338,44,808,404" href="#monitor">
-        <area shape="rect" coords="338,405,842,516" href="#klawiatura">
-        <area shape="rect" coords="818,517,917,604" href="#myszka">
-    </map>
-    <p id="task" class="paragraph">Zadanie</p>
-    <img src="https://lukasz-socha.pl/wp-content/uploads/2013/07/mapa_przyklad.png" usemap="#states" alt="States"/>
-    <map name="states">
-        <area shape="poly" alt="lubelskie" title="lubelskie" coords="571,255,554,275,539,269,541,280,532,280,523,289,488,291,488,305,492,325,476,328,490,335,495,348,490,352,492,357,491,389,500,417,505,417,508,406,522,417,518,429,542,436,546,450,537,449,535,454,536,458,555,459,550,463,575,464,585,451,591,455,598,451,612,468,619,451,639,446,640,431,638,410,630,398,633,388,607,350,614,346,595,306,610,307,618,269" href="#lubelskie" />
-        <area shape="poly" alt="podkarpackie" title="podkarpackie" coords="608,465,555,546,563,562,561,579,575,595,570,593,554,593,512,576,506,565,477,554,467,562,464,525,455,519,461,513,452,509,455,464,452,461,471,449,483,443,486,433,494,428,495,414,498,416,510,413,514,413,516,423,534,433,542,432,544,447,534,455,545,456,551,462,571,462,583,451,588,451,599,448,602,456,607,462" href="#podkarpackie" /> 
-        <area shape="poly" alt="podlaskie" title="podlaskie" coords="537,40,543,32,552,36,555,46,569,51,569,51,577,53,592,76,582,77,614,159,620,187,621,218,594,227,576,256,567,255,552,245,535,247,526,215,523,201,513,208,518,193,500,204,501,183,488,180,478,173,476,148,467,134,484,139,494,132,513,121,536,103,540,87,530,79,530,62,519,57,539,49" href="#podlaskie" /> 
-        <area shape="poly" alt="podlaskie" title="podlaskie" coords="345,38,401,47,461,50,541,43,533,52,522,56,519,65,528,67,533,72,528,78,538,87,539,93,538,105,530,110,521,117,512,121,502,129,498,134,496,139,491,136,482,141,474,137,458,138,456,143,447,147,431,154,428,159,423,160,411,163,399,170,392,174,377,174,364,175,354,175,349,164,351,157,345,153,338,154,324,150,318,146,317,138,314,128,316,125,318,126,322,119,325,111,330,105,336,103,337,107,342,98,343,91,335,91,332,93,328,93,328,85,324,73,323,69,324,58,325,57,326,50,338,46,346,38,340,36,343,37" href="#podlaskie" /> 
-</map>
+        </div>
+    </nav>
+
 
     </map>
-    <p id="task" class="paragraph">Zadanie</p>
-    <table border="1">
-        <thead>
-            <tr>
-                <th colspan="7">Moje ulubione zajęcia</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr style="text-align: center;">
-                <td>Poniedziałek</td>
-                <td>Wtorek</td>
-                <td>Środa</td>
-                <td>Czwartek</td>
-                <td>Piątek</td>
-                <td>Sobota</td>
-                <td>Niedziela</td>
-            </tr>
-            <tr>
-                <td width="200" height="200" style="background-repeat: no-repeat; background-size: contain; background-image: url(https://images.unsplash.com/photo-1588492069485-d05b56b2831d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);"></td>
-                <td width="200" height="200" style="background-repeat: no-repeat; background-size: contain;background-image: url(https://images.unsplash.com/photo-1575361204480-aadea25e6e68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);"></td>
-                <td width="200" height="200" style="background-repeat: no-repeat; background-size: contain; background-image: url(https://images.unsplash.com/photo-1576181384620-ba96e6856719?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80);"></td>
-                <td width="200" height="200" style="background-repeat: no-repeat; background-size: contain; background-image: url(https://images.unsplash.com/photo-1595861021888-e8192a7f774e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);"></td>
-                <td width="200" height="200" style="background-repeat: no-repeat; background-size: contain;  background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);"></td>
-                <td width="200" height="200" style="background-repeat: no-repeat; background-size: contain; background-image: url(https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);"></td>
-                <td width="200" height="200" style="background-repeat: no-repeat; background-size: contain; background-image: url(https://i.ytimg.com/vi/BkD2nN5275c/maxresdefault.jpg);"></td>
-            </tr>
-        </tbody>
-    </table>
     <p id="task" class="paragraph">Zadanie</p>
     <table border="1" width="1000" height="1000" align="center">
         <tbody style="text-align: center;">
@@ -334,5 +224,9 @@
         <li type="I" class="test" style="margin-bottom: 50px;"><a href="https://d-pt.ppstatic.pl/k/r/1/83/d3/5d94a2571944d_p.jpg?1588587084"><img style="width: 300px; height: 200px;" src="https://d-pt.ppstatic.pl/k/r/1/83/d3/5d94a2571944d_p.jpg?1588587084" alt="dog & fish image"></a></li>
         <li type="I" class="test" style="margin-bottom: 50px;"><a href="https://d-art.ppstatic.pl/kadry/k/r/1/94/55/5dfa265655d54_o_medium.jpg"><img style="width: 300px; height: 200px;" src="https://d-art.ppstatic.pl/kadry/k/r/1/94/55/5dfa265655d54_o_medium.jpg" alt="dog & fish image"></a></li>
     </ol>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
