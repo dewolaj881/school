@@ -43,6 +43,7 @@ hr {
   margin-bottom: 80px;
   margin-top: 80px;
   border-radius: 10px;
+  max-height: 500px;
 }
 
 /* Responsive design section */
@@ -56,6 +57,15 @@ hr {
   .pre {
     width: 310px;
   }
+  table {
+    height: 310px;
+    width: 310px;
+  }
+  .tablexample2 {
+    height: 100px;
+    width: 310px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 360px) {
@@ -64,23 +74,37 @@ hr {
     width: 360px;
     margin: auto;
   }
+  .tablexample2 {
+    height: 100px;
+    width: 360px;
+    margin: auto;
+  }
   .pre {
+    width: 360px;
+  }
+  table {
+    height: 360px;
     width: 360px;
   }
 }
 
 @media (min-width: 562px) {
   table {
-    height: 700px;
-    width: 700px;
+    height: 562px;
+    width: 562px;
   }
   .tablexample {
     height: 100px;
-    width: 500px;
+    width: 562px;
+    margin: auto;
+  }
+  .tablexample2 {
+    height: 100px;
+    width: 562px;
     margin: auto;
   }
   .pre {
-    width: 500px;
+    width: 562px;
   }
 }
 
@@ -88,7 +112,16 @@ hr {
   .pre {
     width: 700px;
   }
+  table {
+    height: 700px;
+    width: 700px;
+  }
   .tablexample {
+    height: 100px;
+    width: 700px;
+    margin: auto;
+  }
+  .tablexample2 {
     height: 100px;
     width: 700px;
     margin: auto;
@@ -101,12 +134,17 @@ hr {
     margin-right: 10px;
   }
   table {
-    height: 1000px;
-    width: 1000px;
+    height: 995px;
+    width: 995px;
   }
   .tablexample {
     height: 100px;
     width: 800px;
+  }
+  .tablexample2 {
+    height: 100px;
+    width: 800px;
+    margin: auto;
   }
   .pre {
     width: 995px;
