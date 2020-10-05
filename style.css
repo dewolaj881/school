@@ -74,14 +74,14 @@ body {
   border-radius: 10px;
 }
 
-@media only screen and (min-width: 591px) {
+@media (min-width: 591px) {
   table {
     height: 700px;
     width: 700px;
   }
 }
 
-@media only screen and (min-width: 995px) {
+@media (min-width: 995px) {
   table {
     height: 1000px;
     width: 1000px;
