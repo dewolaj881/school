@@ -1,7 +1,6 @@
 body {
   font-size: 20px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin: auto;
   background-color: #f7fafc;
   font-family: "Kumbh Sans", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -11,10 +10,6 @@ body {
   text-align: center;
   margin: 30px 0 10px 0;
   font-size: 35px;
-}
-
-.margin-10 {
-  margin-bottom: 100px;
 }
 
 .center {
@@ -59,10 +54,6 @@ body {
   padding-right: 40px;
 }
 
-/* #spis > li {
-    border-bottom: 1px solid grey;
-} */
-
 #spis > li:hover {
   border-bottom: 1px solid grey;
   transform: scale(1.1);
@@ -75,10 +66,24 @@ body {
 
 .pre {
   background-color: #2d3748;
-  width: 1000px;
+  width: 800px;
   margin: auto;
   color: white;
   padding: 25px;
   margin-bottom: 50px;
   border-radius: 10px;
+}
+
+@media only screen and (min-width: 591px) {
+  table {
+    height: 700px;
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 995px) {
+  table {
+    height: 1000px;
+    width: 1000px;
+  }
 }
