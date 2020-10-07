@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script
+      src="https://kit.fontawesome.com/f6d1e5c0d4.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -33,57 +37,112 @@
   <body>
     <!-- Navbar Code -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">StarWatch</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="exercises.html">Exercises</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="unresponsive.html">Not Responsive</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Examples</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="lists.html">Lists</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="definition.html">Definition</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="picmap.html">Picture Map</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="tables.html">Tables</a>
-            </div>
-          </li>
-        </ul>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar border-bottom pb-3"
+    >
+      <div class="container">
+        <!-- Brand -->
+        <a
+          class="navbar-brand"
+          href="https://mdbootstrap.com/material-design-for-bootstrap/"
+          target="_blank"
+        >
+          <strong>StarWatch</strong>
+        </a>
+
+        <!-- Collapse -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercises.html" target="_blank"
+                >Exercises</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Examples</a
+              >
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="lists.html">Lists</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="definition.html">Definition</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="picmap.html">Picture Map</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="tables.html">Tables</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="unresponsive.html" target="_blank"
+                >Not Responsive</a
+              >
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a
+                href="https://www.facebook.com/"
+                class="nav-link"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f mr-4"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://twitter.com/?lang=pl"
+                class="nav-link"
+                target="_blank"
+              >
+                <i class="fab fa-twitter mr-4"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://github.com/dewolaj881"
+                class="nav-link border border-light rounded"
+                target="_blank"
+              >
+                <i class="fab fa-github mr-2"></i>My GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
+    <div id="intro" class="view navbar.transparent navbar-inverse navbar-inner">
+      <div class="full-bg-img"></div>
+    </div>
     <!-- BOOTSTRAP Scripts DON'T REMOVE -->
 
     <script
