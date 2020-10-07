@@ -5,6 +5,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Background image code */
+
+#intro {
+  height: 100%;
+  background-image: url("./pedro-barros-NnDOriTIEyc-unsplash.jpg");
+  width: 100%;
+  height: 1000px;
+  opacity: 0.9;
+}
+
 /* Paragraph and hr styling */
 
 .center {
@@ -27,15 +37,17 @@ body {
   margin-top: 10px;
 }
 
-#arrow {
-  text-decoration: none;
-  color: black;
-}
-
 hr {
   text-align: center;
   margin-bottom: 80px;
   max-width: 500px;
+}
+
+/* Back arrow styling */
+
+#arrow {
+  text-decoration: none;
+  color: black;
 }
 
 /* Lists styling */
@@ -143,10 +155,6 @@ hr {
 }
 
 @media (min-width: 995px) {
-  body {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
   table {
     height: 995px;
     width: 995px;
